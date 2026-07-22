@@ -1,0 +1,1 @@
+Candela is installed. Choose a scheme from Preferences > Select Color Scheme.

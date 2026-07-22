@@ -1,0 +1,70 @@
+{
+  "name": "Candela 07 · Meadow",
+  "author": "Candela",
+  "variables": {
+    "bg": "#ecf3e4",
+    "surface": "#f6faf0",
+    "border": "#d7e4c8",
+    "ink": "#2c342a",
+    "ink2": "#556150",
+    "faint": "#627055",
+    "selection": "#dcecc9",
+    "cursor": "#2c342a",
+    "lineHighlight": "#f0f6e9",
+    "kw": "#417929",
+    "str": "#3c6f9f",
+    "fn": "#297962",
+    "num": "#966025",
+    "type": "#8a5aa0",
+    "builtin": "#b0503f",
+    "punct": "#646f5d",
+    "error": "#8a3f32",
+    "warning": "#7d5d2e",
+    "ok": "#2c7858"
+  },
+  "globals": {
+    "background": "var(surface)",
+    "foreground": "var(ink)",
+    "caret": "var(cursor)",
+    "line_highlight": "var(lineHighlight)",
+    "selection": "var(selection)",
+    "gutter": "var(bg)",
+    "gutter_foreground": "var(ink2)",
+    "invisibles": "var(faint)"
+  },
+  "rules": [
+    {
+      "scope": "keyword, storage",
+      "foreground": "var(kw)"
+    },
+    {
+      "scope": "string",
+      "foreground": "var(str)"
+    },
+    {
+      "scope": "entity.name.function, support.function",
+      "foreground": "var(fn)"
+    },
+    {
+      "scope": "constant.numeric, constant.language",
+      "foreground": "var(num)"
+    },
+    {
+      "scope": "entity.name.type, entity.name.class, support.type",
+      "foreground": "var(type)"
+    },
+    {
+      "scope": "support, variable.language, constant.other.symbol",
+      "foreground": "var(builtin)"
+    },
+    {
+      "scope": "punctuation, keyword.operator",
+      "foreground": "var(punct)"
+    },
+    {
+      "scope": "comment",
+      "foreground": "var(faint)",
+      "font_style": "italic"
+    }
+  ]
+}
