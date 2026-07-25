@@ -1,8 +1,8 @@
 # Candela Themes for Sublime Text
 
-Color themes tuned for long, comfortable coding sessions — low-glare backgrounds, desaturated accents, and WCAG-AA contrast throughout, with the same palette across your editor and terminal.
+Color themes for editors and terminals, tuned for long sessions and tired eyes. Low-glare backgrounds, desaturated accents, and WCAG-AA contrast throughout, with the same palette everywhere you work.
 
-![Candela preview](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/candela-sepia-paper.png)
+![Candela preview](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/examples/candela-01-sepia-paper.png)
 
 ## Why Candela
 
@@ -13,9 +13,9 @@ Color themes tuned for long, comfortable coding sessions — low-glare backgroun
 
 ## Previews
 
-![Slate Mist](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/candela-slate-mist.png)
-![Meadow](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/candela-meadow.png)
-![Nocturne](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/candela-nocturne.png)
+![Slate Mist](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/examples/candela-02-slate-mist.png)
+![Meadow](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/examples/candela-07-meadow.png)
+![Nocturne](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/examples/candela-15-nocturne.png)
 
 After installing, choose a Candela scheme from **Preferences > Select Color Scheme**.
 
