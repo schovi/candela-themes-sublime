@@ -11,6 +11,8 @@ Color themes for editors and terminals, tuned for long sessions and tired eyes. 
 - **One palette everywhere** — the same colors in your editor and your terminal.
 - **A whole family** — light schemes for every room, plus dark companions, all from one coordinated, curated set.
 
+After installing, choose a Candela scheme from **Preferences > Select Color Scheme**.
+
 ## Every theme
 
 All 16 themes, each shown across terminal, TypeScript, Markdown, and git panes.
@@ -78,7 +80,5 @@ All 16 themes, each shown across terminal, TypeScript, Markdown, and git panes.
 **16 · Borealis** — dark
 
 ![16 · Borealis](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/examples/candela-16-borealis.png)
-
-After installing, choose a Candela scheme from **Preferences > Select Color Scheme**.
 
 > Generated from the Candela source of truth — do not edit by hand.
