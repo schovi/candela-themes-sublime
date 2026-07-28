@@ -1,6 +1,6 @@
-# Candela Themes for Sublime Text
+# Candela Color Schemes for Sublime Text
 
-Color themes for editors and terminals, tuned for long sessions and tired eyes. Low-glare backgrounds, desaturated accents, and WCAG-AA contrast throughout, with the same palette everywhere you work.
+Color schemes for Sublime Text and your terminal, tuned for long sessions and tired eyes. Low-glare backgrounds, desaturated accents, and WCAG-AA contrast throughout, with the same palette everywhere you work.
 
 ![Candela preview](https://github.com/schovi/candela-themes/raw/main/docs/screenshots/examples/candela-01-sepia-paper.png)
 
@@ -13,9 +13,9 @@ Color themes for editors and terminals, tuned for long sessions and tired eyes. 
 
 After installing, choose a Candela scheme from **Preferences > Select Color Scheme**.
 
-## Every theme
+## Every color scheme
 
-All 16 themes, each shown across terminal, TypeScript, Markdown, and git panes.
+All 16 color schemes, each shown across terminal, TypeScript, Markdown, and git panes.
 
 **01 · Sepia Paper** — light
 
