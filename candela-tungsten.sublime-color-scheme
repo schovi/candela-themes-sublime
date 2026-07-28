@@ -20,7 +20,14 @@
     "punct": "#6e6552",
     "error": "#7c452b",
     "warning": "#7b5a2a",
-    "ok": "#297555"
+    "ok": "#297555",
+    "--background": "var(bg)",
+    "--foreground": "var(ink)",
+    "--accent": "var(builtin)",
+    "--redish": "var(error)",
+    "--orangish": "var(warning)",
+    "--greenish": "var(ok)",
+    "--bluish": "var(builtin)"
   },
   "globals": {
     "background": "var(surface)",
@@ -30,7 +37,8 @@
     "selection": "var(selection)",
     "gutter": "var(bg)",
     "gutter_foreground": "var(ink2)",
-    "invisibles": "var(faint)"
+    "invisibles": "var(faint)",
+    "accent": "var(builtin)"
   },
   "rules": [
     {

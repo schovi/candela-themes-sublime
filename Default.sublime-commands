@@ -1,0 +1,6 @@
+[
+  {
+    "caption": "Candela: Color the sidebar, tabs and status bar too",
+    "command": "candela_use_adaptive_ui"
+  }
+]

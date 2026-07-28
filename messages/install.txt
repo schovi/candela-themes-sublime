@@ -1,1 +1,5 @@
 Candela is installed. Choose a scheme from Preferences > Select Color Scheme.
+
+Candela will then offer to switch your UI theme to Adaptive, so the sidebar, tabs and
+status bar follow the palette too. To do it later, run "Candela: Color the sidebar, tabs
+and status bar too" from the command palette.
