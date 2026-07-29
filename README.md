@@ -2,7 +2,9 @@
 
 Color schemes for Sublime Text and your terminal, tuned for long sessions and tired eyes. Low-glare backgrounds, desaturated accents, and WCAG-AA contrast throughout, with the same palette everywhere you work.
 
-![Candela preview](https://raw.githubusercontent.com/schovi/candela-themes/main/docs/screenshots/examples/candela-01-sepia-paper.png)
+![Candela on Adaptive, light](https://raw.githubusercontent.com/schovi/candela-themes/main/docs/screenshots/sublime/sublime-light.png)
+
+![Candela on Adaptive, dark](https://raw.githubusercontent.com/schovi/candela-themes/main/docs/screenshots/sublime/sublime-dark.png)
 
 ## Why Candela
 
@@ -17,10 +19,6 @@ Candela then offers to switch the UI theme to Adaptive, which extends the palett
 sidebar, tabs and status bar — every other UI theme keeps its own grays. Decline it and
 only the editor recolors; you can turn it on later with **Candela: Color the sidebar, tabs
 and status bar too** in the command palette, or by hand with `"theme": "Adaptive.sublime-theme"`.
-
-![Candela on Adaptive, light](https://raw.githubusercontent.com/schovi/candela-themes/main/docs/screenshots/sublime/sublime-light.png)
-
-![Candela on Adaptive, dark](https://raw.githubusercontent.com/schovi/candela-themes/main/docs/screenshots/sublime/sublime-dark.png)
 
 ## Every color scheme
 
