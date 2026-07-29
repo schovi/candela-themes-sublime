@@ -1,0 +1,78 @@
+{
+  "name": "Candela 17 · Nightshade",
+  "author": "Candela",
+  "variables": {
+    "bg": "#282a36",
+    "surface": "#2f3140",
+    "border": "#4d5164",
+    "ink": "#cfd0e4",
+    "ink2": "#7f85a3",
+    "faint": "#8b90ad",
+    "selection": "#454a63",
+    "cursor": "#ffb454",
+    "lineHighlight": "#34364a",
+    "kw": "#e78ac0",
+    "str": "#cfd48a",
+    "fn": "#6ec48c",
+    "num": "#b49bf2",
+    "type": "#79c3e3",
+    "builtin": "#f0a06a",
+    "punct": "#cfd0e4",
+    "error": "#ff6b7d",
+    "warning": "#f0c05c",
+    "ok": "#4cc7a8",
+    "--background": "var(bg)",
+    "--foreground": "var(ink)",
+    "--accent": "var(builtin)",
+    "--redish": "var(error)",
+    "--orangish": "var(warning)",
+    "--greenish": "var(ok)",
+    "--bluish": "var(type)"
+  },
+  "globals": {
+    "background": "var(surface)",
+    "foreground": "var(ink)",
+    "caret": "var(cursor)",
+    "line_highlight": "var(lineHighlight)",
+    "selection": "var(selection)",
+    "gutter": "var(bg)",
+    "gutter_foreground": "var(ink2)",
+    "invisibles": "var(faint)",
+    "accent": "var(builtin)"
+  },
+  "rules": [
+    {
+      "scope": "keyword, storage",
+      "foreground": "var(kw)"
+    },
+    {
+      "scope": "string",
+      "foreground": "var(str)"
+    },
+    {
+      "scope": "entity.name.function, support.function",
+      "foreground": "var(fn)"
+    },
+    {
+      "scope": "constant.numeric, constant.language",
+      "foreground": "var(num)"
+    },
+    {
+      "scope": "entity.name.type, entity.name.class, support.type",
+      "foreground": "var(type)"
+    },
+    {
+      "scope": "support, variable.language, constant.other.symbol",
+      "foreground": "var(builtin)"
+    },
+    {
+      "scope": "punctuation, keyword.operator",
+      "foreground": "var(punct)"
+    },
+    {
+      "scope": "comment",
+      "foreground": "var(faint)",
+      "font_style": "italic"
+    }
+  ]
+}

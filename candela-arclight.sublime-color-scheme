@@ -1,0 +1,78 @@
+{
+  "name": "Candela 21 · Arclight",
+  "author": "Candela",
+  "variables": {
+    "bg": "#0e0f11",
+    "surface": "#171a1d",
+    "border": "#3d4349",
+    "ink": "#eef1f4",
+    "ink2": "#a7b0b8",
+    "faint": "#9aa3ab",
+    "selection": "#33414f",
+    "cursor": "#ffd166",
+    "lineHighlight": "#16191c",
+    "kw": "#ffb0d8",
+    "str": "#8ce8a8",
+    "fn": "#8fc0ff",
+    "num": "#ffc07a",
+    "type": "#d2b0ff",
+    "builtin": "#7fe0e8",
+    "punct": "#eef1f4",
+    "error": "#f2857e",
+    "warning": "#f2d05a",
+    "ok": "#6fe0c0",
+    "--background": "var(bg)",
+    "--foreground": "var(ink)",
+    "--accent": "var(builtin)",
+    "--redish": "var(error)",
+    "--orangish": "var(warning)",
+    "--greenish": "var(ok)",
+    "--bluish": "var(fn)"
+  },
+  "globals": {
+    "background": "var(surface)",
+    "foreground": "var(ink)",
+    "caret": "var(cursor)",
+    "line_highlight": "var(lineHighlight)",
+    "selection": "var(selection)",
+    "gutter": "var(bg)",
+    "gutter_foreground": "var(ink2)",
+    "invisibles": "var(faint)",
+    "accent": "var(builtin)"
+  },
+  "rules": [
+    {
+      "scope": "keyword, storage",
+      "foreground": "var(kw)"
+    },
+    {
+      "scope": "string",
+      "foreground": "var(str)"
+    },
+    {
+      "scope": "entity.name.function, support.function",
+      "foreground": "var(fn)"
+    },
+    {
+      "scope": "constant.numeric, constant.language",
+      "foreground": "var(num)"
+    },
+    {
+      "scope": "entity.name.type, entity.name.class, support.type",
+      "foreground": "var(type)"
+    },
+    {
+      "scope": "support, variable.language, constant.other.symbol",
+      "foreground": "var(builtin)"
+    },
+    {
+      "scope": "punctuation, keyword.operator",
+      "foreground": "var(punct)"
+    },
+    {
+      "scope": "comment",
+      "foreground": "var(faint)",
+      "font_style": "italic"
+    }
+  ]
+}

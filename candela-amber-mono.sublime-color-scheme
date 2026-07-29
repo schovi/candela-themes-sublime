@@ -1,0 +1,78 @@
+{
+  "name": "Candela 22 · Amber Mono",
+  "author": "Candela",
+  "variables": {
+    "bg": "#1b1917",
+    "surface": "#232120",
+    "border": "#454240",
+    "ink": "#dcd8d3",
+    "ink2": "#948f89",
+    "faint": "#918c86",
+    "selection": "#3a3633",
+    "cursor": "#f0a83c",
+    "lineHighlight": "#211f1d",
+    "kw": "#e8a94e",
+    "str": "#f0c987",
+    "fn": "#b8b2ab",
+    "num": "#a8a29b",
+    "type": "#c8c2ba",
+    "builtin": "#e8a94e",
+    "punct": "#dcd8d3",
+    "error": "#d1786a",
+    "warning": "#c9b06a",
+    "ok": "#8dc4b0",
+    "--background": "var(bg)",
+    "--foreground": "var(ink)",
+    "--accent": "var(builtin)",
+    "--redish": "var(error)",
+    "--orangish": "var(warning)",
+    "--greenish": "var(ok)",
+    "--bluish": "var(str)"
+  },
+  "globals": {
+    "background": "var(surface)",
+    "foreground": "var(ink)",
+    "caret": "var(cursor)",
+    "line_highlight": "var(lineHighlight)",
+    "selection": "var(selection)",
+    "gutter": "var(bg)",
+    "gutter_foreground": "var(ink2)",
+    "invisibles": "var(faint)",
+    "accent": "var(builtin)"
+  },
+  "rules": [
+    {
+      "scope": "keyword, storage",
+      "foreground": "var(kw)"
+    },
+    {
+      "scope": "string",
+      "foreground": "var(str)"
+    },
+    {
+      "scope": "entity.name.function, support.function",
+      "foreground": "var(fn)"
+    },
+    {
+      "scope": "constant.numeric, constant.language",
+      "foreground": "var(num)"
+    },
+    {
+      "scope": "entity.name.type, entity.name.class, support.type",
+      "foreground": "var(type)"
+    },
+    {
+      "scope": "support, variable.language, constant.other.symbol",
+      "foreground": "var(builtin)"
+    },
+    {
+      "scope": "punctuation, keyword.operator",
+      "foreground": "var(punct)"
+    },
+    {
+      "scope": "comment",
+      "foreground": "var(faint)",
+      "font_style": "italic"
+    }
+  ]
+}
