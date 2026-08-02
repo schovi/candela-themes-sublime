@@ -73,6 +73,63 @@
       "scope": "comment",
       "foreground": "var(faint)",
       "font_style": "italic"
+    },
+    {
+      "scope": "entity.name.tag, entity.name.namespace",
+      "foreground": "var(type)"
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "foreground": "var(builtin)"
+    },
+    {
+      "scope": "constant.character.escape",
+      "foreground": "var(num)"
+    },
+    {
+      "scope": "invalid",
+      "foreground": "var(error)"
+    },
+    {
+      "scope": "markup.heading, entity.name.section",
+      "foreground": "var(fn)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "markup.bold",
+      "foreground": "var(kw)",
+      "font_style": "bold"
+    },
+    {
+      "scope": "markup.italic",
+      "foreground": "var(kw)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "markup.raw, markup.inline.raw",
+      "foreground": "var(builtin)"
+    },
+    {
+      "scope": "markup.underline.link, string.other.link",
+      "foreground": "var(fn)",
+      "font_style": "underline"
+    },
+    {
+      "scope": "markup.quote",
+      "foreground": "var(faint)",
+      "font_style": "italic"
+    },
+    {
+      "scope": "markup.inserted",
+      "foreground": "var(ok)"
+    },
+    {
+      "scope": "markup.deleted",
+      "foreground": "var(error)"
+    },
+    {
+      "scope": "markup.changed",
+      "foreground": "var(warning)"
     }
   ]
 }
